@@ -12,6 +12,9 @@ if os_platform == "Windows":
 elif os_platform == "Darwin":
     username = getpass.getuser()
     path = "/Users/" + username + "/Downloads/"
+elif os_platform =='Linux':
+    username=getpass.getuser()
+    path = "/home/"+username+"/Downloads/"
 else:
 	print("Sorry, OS not supported. Closing script.")
 	quit()
