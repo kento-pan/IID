@@ -1,7 +1,7 @@
-# IDD
+# IID
 **Instagram Image Downloader** for Mac and Windows
 
-IDD will download the **original** image of an Instagram photo page in JPG format.
+IID will download the **original** image of an Instagram photo page in JPG format.
 
 All you have to do is to start the script and copy & paste the photo id from the URL. 
 
