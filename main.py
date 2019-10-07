@@ -1,7 +1,6 @@
 import os
 import requests
 import shutil
-import platform
 import geturl
 from PIL import Image, ImageFile
 from pathlib import Path
@@ -10,7 +9,6 @@ from bs4 import BeautifulSoup
 # OS and path: We need to save the downloaded files somewhere. Here we create a new folder for our downloads
 # and choose a fitting directory.
 
-os_platform = platform.system()
 new_folder = "/Instagram Downloads/"
 
 path = Path.home() / "Downloads"
