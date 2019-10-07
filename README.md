@@ -1,5 +1,5 @@
 # IID
-**Instagram Image Downloader** for Mac and Windows
+**Instagram Image Downloader** for Mac, Windows and Linux.
 
 IID will download the **original** image of an Instagram photo page in JPG format.
 
